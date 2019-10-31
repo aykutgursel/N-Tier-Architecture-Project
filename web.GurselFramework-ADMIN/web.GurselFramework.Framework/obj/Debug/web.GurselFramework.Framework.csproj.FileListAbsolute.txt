@@ -1,0 +1,10 @@
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\bin\Debug\web.GurselFramework.Framework.dll.config
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\bin\Debug\web.GurselFramework.Framework.dll
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\bin\Debug\web.GurselFramework.Framework.pdb
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\obj\Debug\web.GurselFramework.Framework.csprojAssemblyReference.cache
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\obj\Debug\web.GurselFramework.Framework.csproj.CoreCompileInputs.cache
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\obj\Debug\web.GurselFramework.Framework.csproj.CopyComplete
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\obj\Debug\web.GurselFramework.Framework.dll
+C:\Users\aykut.gursel\source\repos\ProjectBA\web.GurselFramework-ADMIN\web.GurselFramework.Framework\obj\Debug\web.GurselFramework.Framework.pdb

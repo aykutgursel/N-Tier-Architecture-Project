@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.Business", "web.GurselFramework.Business\web.GurselFramework.Business.csproj", "{3ACB9BA4-75B7-4C0F-B537-32F5F437533E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.Business.Tests", "web.GurselFramework.Business.Tests\web.GurselFramework.Business.Tests.csproj", "{1DD5EE1B-62DC-4259-BA4F-48DC080A91A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.Core", "web.GurselFramework.Core\web.GurselFramework.Core.csproj", "{9E37DB93-BBA4-4732-936C-EF7A3956769D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.DataAccess", "web.GurselFramework.DataAccess\web.GurselFramework.DataAccess.csproj", "{A3C87B17-BD2D-4FE8-B91B-F79A655AED2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.Entities", "web.GurselFramework.Entities\web.GurselFramework.Entities.csproj", "{9446DC04-B0E4-4618-B8A8-83B6FDA388E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.MvcWebUI", "web.GurselFramework.MvcWebUI\web.GurselFramework.MvcWebUI.csproj", "{6FF84C90-345B-43A6-B164-C9FB889CF074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.MvcWebUI.Tests", "web.GurselFramework.MvcWebUI.Tests\web.GurselFramework.MvcWebUI.Tests.csproj", "{C430DD3B-5BAD-4156-94C3-6559DA89A933}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web.GurselFramework.WcfService", "web.GurselFramework.WcfService\", "{98C29CB9-A9B9-4DA7-8502-A943FAC8DCDA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{3acb9ba4-75b7-4c0f-b537-32f5f437533e}|web.GurselFramework.Business.dll;{9E37DB93-BBA4-4732-936C-EF7A3956769D}|web.GurselFramework.Core.dll;{A3C87B17-BD2D-4FE8-B91B-F79A655AED2F}|web.GurselFramework.DataAccess.dll;{9446DC04-B0E4-4618-B8A8-83B6FDA388E3}|web.GurselFramework.Entities.dll;{9D95B789-7240-42DE-A34C-2D87EE43CFAA}|web.GurselFramework.Framework.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_34000"
+		Debug.AspNetCompiler.PhysicalPath = "web.GurselFramework.WcfService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_34000\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_34000"
+		Release.AspNetCompiler.PhysicalPath = "web.GurselFramework.WcfService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_34000\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "34000"
+		SlnRelativePath = "web.GurselFramework.WcfService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.DataAccess.Tests", "web.GurselFramework.DataAccess.Tests\web.GurselFramework.DataAccess.Tests.csproj", "{105491E5-8E48-4E12-8961-D6B00E6C6195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.WebApi", "web.GurselFramework.WebApi\web.GurselFramework.WebApi.csproj", "{2EDB8E73-4660-4BE5-8012-B0B1E90DAF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.GurselFramework.Framework", "web.GurselFramework.Framework\web.GurselFramework.Framework.csproj", "{9D95B789-7240-42DE-A34C-2D87EE43CFAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{9300C0B1-029A-4E22-953E-8418DBE79D59}"
+	ProjectSection(SolutionItems) = preProject
+		GurselConfig.config = GurselConfig.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACB9BA4-75B7-4C0F-B537-32F5F437533E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACB9BA4-75B7-4C0F-B537-32F5F437533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACB9BA4-75B7-4C0F-B537-32F5F437533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACB9BA4-75B7-4C0F-B537-32F5F437533E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD5EE1B-62DC-4259-BA4F-48DC080A91A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD5EE1B-62DC-4259-BA4F-48DC080A91A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD5EE1B-62DC-4259-BA4F-48DC080A91A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD5EE1B-62DC-4259-BA4F-48DC080A91A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E37DB93-BBA4-4732-936C-EF7A3956769D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E37DB93-BBA4-4732-936C-EF7A3956769D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E37DB93-BBA4-4732-936C-EF7A3956769D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E37DB93-BBA4-4732-936C-EF7A3956769D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C87B17-BD2D-4FE8-B91B-F79A655AED2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C87B17-BD2D-4FE8-B91B-F79A655AED2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C87B17-BD2D-4FE8-B91B-F79A655AED2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C87B17-BD2D-4FE8-B91B-F79A655AED2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9446DC04-B0E4-4618-B8A8-83B6FDA388E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9446DC04-B0E4-4618-B8A8-83B6FDA388E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9446DC04-B0E4-4618-B8A8-83B6FDA388E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9446DC04-B0E4-4618-B8A8-83B6FDA388E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF84C90-345B-43A6-B164-C9FB889CF074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF84C90-345B-43A6-B164-C9FB889CF074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF84C90-345B-43A6-B164-C9FB889CF074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF84C90-345B-43A6-B164-C9FB889CF074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C430DD3B-5BAD-4156-94C3-6559DA89A933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C430DD3B-5BAD-4156-94C3-6559DA89A933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C430DD3B-5BAD-4156-94C3-6559DA89A933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C430DD3B-5BAD-4156-94C3-6559DA89A933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C29CB9-A9B9-4DA7-8502-A943FAC8DCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C29CB9-A9B9-4DA7-8502-A943FAC8DCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C29CB9-A9B9-4DA7-8502-A943FAC8DCDA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C29CB9-A9B9-4DA7-8502-A943FAC8DCDA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{105491E5-8E48-4E12-8961-D6B00E6C6195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105491E5-8E48-4E12-8961-D6B00E6C6195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105491E5-8E48-4E12-8961-D6B00E6C6195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105491E5-8E48-4E12-8961-D6B00E6C6195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDB8E73-4660-4BE5-8012-B0B1E90DAF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDB8E73-4660-4BE5-8012-B0B1E90DAF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDB8E73-4660-4BE5-8012-B0B1E90DAF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDB8E73-4660-4BE5-8012-B0B1E90DAF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D95B789-7240-42DE-A34C-2D87EE43CFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D95B789-7240-42DE-A34C-2D87EE43CFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D95B789-7240-42DE-A34C-2D87EE43CFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D95B789-7240-42DE-A34C-2D87EE43CFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD456403-D8F9-4234-AD01-E9696A9E1853}
+	EndGlobalSection
+EndGlobal

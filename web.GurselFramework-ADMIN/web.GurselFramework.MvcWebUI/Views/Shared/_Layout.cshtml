@@ -1,0 +1,114 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Gursel Framework | @ViewBag.Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Gürsel Framework" name="description" />
+    <meta content="" name="author" />
+    <link href="//fonts.googleapis.com/css?family=Oswald:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="~/Assets/Plugins/Fonts/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/bootstrap-switch.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/daterangepicker.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/morris.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/fullcalendar.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/jqvmap.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/components-md.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/plugins-md.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/layout.min.css" rel="stylesheet" />
+    <link href="~/Assets/Plugins/Styles/custom.min.css" rel="stylesheet" />
+
+    <ling rel="shortcut icon" href="~/favicon.ico" />
+</head>
+<!-- END HEAD -->
+
+<body class="">
+    @Html.Partial("../Shared/includes/_headerPartial")
+    <div class="container-fluid">
+        <div class="page-content page-content-popup">
+            @Html.Partial("../Shared/includes/_sidebarPartial")
+            <div class="page-fixed-main-content">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        @RenderBody()
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            @Html.Partial("../Shared/includes/_footerPartial")
+            <a href="#index" class="go2top">
+                <i class="icon-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+    <!-- END CONTAINER -->
+    <!-- BEGIN QUICK SIDEBAR -->
+    <a href="javascript:;" class="page-quick-sidebar-toggler">
+        <i class="icon-login"></i>
+    </a>
+    <div class="quick-nav-overlay"></div>
+
+    <!--SCRIPTS-->
+    <script src="~/Assets/Plugins/Scripts/jquery.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/bootstrap.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/js.cookie.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.slimscroll.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.blockui.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/bootstrap-switch.min.js"></script>
+
+    <script src="~/Assets/Plugins/Scripts/moment.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/daterangepicker.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/bootstrap-datetimepicker.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/morris.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/raphael-min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.waypoints.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.counterup.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/amcharts.js"></script>
+    <script src="~/Assets/Plugins/Scripts/serial.js"></script>
+    <script src="~/Assets/Plugins/Scripts/pie.js"></script>
+    <script src="~/Assets/Plugins/Scripts/radar.js"></script>
+    <script src="~/Assets/Plugins/Scripts/light.js"></script>
+    <script src="~/Assets/Plugins/Scripts/patterns.js"></script>
+    <script src="~/Assets/Plugins/Scripts/chalk.js"></script>
+    <script src="~/Assets/Plugins/Scripts/ammap.js"></script>
+    <script src="~/Assets/Plugins/Scripts/worldLow.js"></script>
+    <script src="~/Assets/Plugins/Scripts/amstock.js"></script>
+    <script src="~/Assets/Plugins/Scripts/fullcalendar.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/horizontal-timeline.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.flot.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.flot.resize.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.flot.categories.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.easypiechart.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.sparkline.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.vmap.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.vmap.russia.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.vmap.world.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.vmap.europe.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.vmap.germany.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.vmap.usa.js"></script>
+    <script src="~/Assets/Plugins/Scripts/jquery.vmap.sampledata.js"></script>
+
+    <script src="~/Assets/Plugins/Scripts/app.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/dashboard.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/layout.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/quick-sidebar.min.js"></script>
+    <script src="~/Assets/Plugins/Scripts/quick-nav.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#clickmewow').click(function () {
+                $('#radio1003').attr('checked', 'checked');
+            });
+        })</script>
+</body>
+
+</html>

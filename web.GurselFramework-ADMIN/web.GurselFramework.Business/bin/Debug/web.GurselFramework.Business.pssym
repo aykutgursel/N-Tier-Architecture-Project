@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="367" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.LogAspects.LogAspect">
+    <Instance Declaration="#2=A:web.GurselFramework.Business" Id="f78ffe87320ea169">
+      <Target Target="#3=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::GetAll()">
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" Ordinal="10" />
+      </Target>
+      <Target Target="#5=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::Add(web.GurselFramework.Entities.Concrete.Product)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="15" />
+      </Target>
+      <Target Target="#6=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::Update(web.GurselFramework.Entities.Concrete.Product)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="22" />
+      </Target>
+      <Target Target="#7=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::TransactionalOperation(web.GurselFramework.Entities.Concrete.Product, web.GurselFramework.Entities.Concrete.Product)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="27" />
+      </Target>
+      <Target Target="#8=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.CategoryManager::Add(web.GurselFramework.Entities.Concrete.Category)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="41" />
+      </Target>
+      <Target Target="#9=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.CategoryManager::GetAll()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="44" />
+      </Target>
+      <Target Target="#10=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.CategoryManager::GetById(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="47" />
+      </Target>
+      <Target Target="#11=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.CategoryManager::Update(web.GurselFramework.Entities.Concrete.Category)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="50" />
+      </Target>
+      <Target Target="#12=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.MenuManager::GetAll()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="55" />
+      </Target>
+      <Target Target="#13=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.MenuManager::GetById(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="58" />
+      </Target>
+      <Target Target="#14=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.MenuManager::Add(web.GurselFramework.Entities.Concrete.Menu)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="61" />
+      </Target>
+      <Target Target="#15=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.MenuManager::Update(web.GurselFramework.Entities.Concrete.Menu)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="64" />
+      </Target>
+      <Target Target="#16=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.MenuManager::TestManager()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="67" />
+      </Target>
+      <Target Target="#17=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductImagesManager::GetList(System.Linq.Expressions.Expression{[mscorlib]System.Func{[web.GurselFramework.Entities]web.GurselFramework.Entities.Concrete.ProductImages,System.Boolean}})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="72" />
+      </Target>
+      <Target Target="#18=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductImagesManager::Get(System.Linq.Expressions.Expression{[mscorlib]System.Func{[web.GurselFramework.Entities]web.GurselFramework.Entities.Concrete.ProductImages,System.Boolean}})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="75" />
+      </Target>
+      <Target Target="#19=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductImagesManager::Add(web.GurselFramework.Entities.Concrete.ProductImages)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="78" />
+      </Target>
+      <Target Target="#20=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductImagesManager::Update(web.GurselFramework.Entities.Concrete.ProductImages)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="81" />
+      </Target>
+      <Target Target="#21=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductImagesManager::Delete(web.GurselFramework.Entities.Concrete.ProductImages)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="84" />
+      </Target>
+      <Target Target="#22=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductImagesManager::GetProductIamgesKeywords(web.GurselFramework.Entities.Concrete.ProductImages)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="87" />
+      </Target>
+      <Target Target="#23=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::GetById(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="18" />
+      </Target>
+      <Target Target="#24=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::GetLastEight()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="30" />
+      </Target>
+      <Target Target="#25=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::GetByUrl(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="33" />
+      </Target>
+      <Target Target="#26=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::GetCategoryProductDetails(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="36" />
+      </Target>
+      <Target Target="#27=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.SalesOfferManager::Add(web.GurselFramework.Entities.Concrete.SalesOffer)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="92" />
+      </Target>
+      <Target Target="#28=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.SalesOfferManager::GetAll()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="95" />
+      </Target>
+      <Target Target="#29=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.SalesOfferManager::GetById(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="98" />
+      </Target>
+      <Target Target="#30=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.SalesOfferManager::Update(web.GurselFramework.Entities.Concrete.SalesOffer)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="101" />
+      </Target>
+      <Target Target="#31=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.UserManager::GetByUserNameAndPassword(System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="106" />
+      </Target>
+      <Target Target="#32=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.UserManager::GetUserRoles(web.GurselFramework.Entities.Concrete.User)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="109" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#33=M:[web.GurselFramework.Business]web.GurselFramework.Business.HttpService.Concrete.HttpClientService{T}::PostType(System.String, System.Object, System.Int32, System.String)" Id="f78ffe876f51c49f">
+      <Target>
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#34=M:[web.GurselFramework.Business]web.GurselFramework.Business.HttpService.Concrete.HttpClientService{T}::GetType(System.String, System.Object, System.Int32, System.String)" Id="f78ffe87101d0c7f">
+      <Target>
+        <JoinPoint Advising="#1" Description="#4" Ordinal="3" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#35=T:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.PerformanceAspects.PerformanceCounterAspect">
+    <Instance Declaration="#2" Id="f78ffe87c5c4e724">
+      <Target Target="#3">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="9" />
+      </Target>
+      <Target Target="#5">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="14" />
+      </Target>
+      <Target Target="#6">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="21" />
+      </Target>
+      <Target Target="#7">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="26" />
+      </Target>
+      <Target Target="#36=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.CategoryManager::#ctor(web.GurselFramework.DataAccess.Abstract.ICategoryDal, AutoMapper.IMapper)">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="38" />
+      </Target>
+      <Target Target="#8">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="39" />
+      </Target>
+      <Target Target="#9">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="42" />
+      </Target>
+      <Target Target="#10">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="45" />
+      </Target>
+      <Target Target="#11">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="48" />
+      </Target>
+      <Target Target="#37=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.MenuManager::#ctor(web.GurselFramework.DataAccess.Abstract.IMenuDal, AutoMapper.IMapper)">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="52" />
+      </Target>
+      <Target Target="#12">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="53" />
+      </Target>
+      <Target Target="#13">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="56" />
+      </Target>
+      <Target Target="#14">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="59" />
+      </Target>
+      <Target Target="#15">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="62" />
+      </Target>
+      <Target Target="#16">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="65" />
+      </Target>
+      <Target Target="#38=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductImagesManager::#ctor(web.GurselFramework.DataAccess.Abstract.IProductImagesDal, AutoMapper.IMapper)">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="69" />
+      </Target>
+      <Target Target="#17">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="70" />
+      </Target>
+      <Target Target="#18">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="73" />
+      </Target>
+      <Target Target="#19">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="76" />
+      </Target>
+      <Target Target="#20">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="79" />
+      </Target>
+      <Target Target="#21">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="82" />
+      </Target>
+      <Target Target="#22">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="85" />
+      </Target>
+      <Target Target="#39=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.ProductManager::#ctor(web.GurselFramework.DataAccess.Abstract.IProductDal, AutoMapper.IMapper)">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="5" />
+      </Target>
+      <Target Target="#23">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="16" />
+      </Target>
+      <Target Target="#24">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="28" />
+      </Target>
+      <Target Target="#25">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="31" />
+      </Target>
+      <Target Target="#26">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="34" />
+      </Target>
+      <Target Target="#40=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.SalesOfferManager::#ctor(web.GurselFramework.DataAccess.Abstract.ISalesOfferDal, AutoMapper.IMapper)">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="89" />
+      </Target>
+      <Target Target="#27">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="90" />
+      </Target>
+      <Target Target="#28">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="93" />
+      </Target>
+      <Target Target="#29">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="96" />
+      </Target>
+      <Target Target="#30">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="99" />
+      </Target>
+      <Target Target="#41=M:[web.GurselFramework.Business]web.GurselFramework.Business.Concrete.Managers.UserManager::#ctor(web.GurselFramework.DataAccess.Abstract.IUserDal)">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="103" />
+      </Target>
+      <Target Target="#31">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="104" />
+      </Target>
+      <Target Target="#32">
+        <JoinPoint Advising="#35" Description="#4" Ordinal="107" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#3" Id="f78ffe8766bfb13b">
+      <Target>
+        <JoinPoint Advising="#35" Description="#4" Ordinal="6" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#42=T:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.ValidationAspects.FluentValidationAspect">
+    <Instance Declaration="#5" Id="f78ffe872421b377">
+      <Target>
+        <JoinPoint Advising="#42" Description="#4" Ordinal="11" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6" Id="f78ffe8773d4306a">
+      <Target>
+        <JoinPoint Advising="#42" Description="#4" Ordinal="19" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7" Id="f78ffe879e7d04e5">
+      <Target>
+        <JoinPoint Advising="#42" Description="#4" Ordinal="23" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#43=T:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.CacheAspects.CacheRemoveAspect">
+    <Instance Declaration="#5" Id="f78ffe8797d4512c">
+      <Target>
+        <JoinPoint Advising="#43" Description="#4" Ordinal="12" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#44=T:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect">
+    <Instance Declaration="#7" Id="f78ffe872c4a1c2e">
+      <Target>
+        <JoinPoint Advising="#44" Description="#4" Ordinal="24" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#45=T:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.ExceptionAspects.ExceptionLogAspect">
+    <Instance Declaration="#2" Id="f78ffe87fd6b7ef2">
+      <Target Target="#3">
+        <JoinPoint Advising="#45" Description="#46=Wrapped by advice(s) OnException" Ordinal="7" />
+      </Target>
+      <Target Target="#5">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="13" />
+      </Target>
+      <Target Target="#6">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="20" />
+      </Target>
+      <Target Target="#7">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="25" />
+      </Target>
+      <Target Target="#36">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="37" />
+      </Target>
+      <Target Target="#8">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="40" />
+      </Target>
+      <Target Target="#9">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="43" />
+      </Target>
+      <Target Target="#10">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="46" />
+      </Target>
+      <Target Target="#11">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="49" />
+      </Target>
+      <Target Target="#37">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="51" />
+      </Target>
+      <Target Target="#12">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="54" />
+      </Target>
+      <Target Target="#13">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="57" />
+      </Target>
+      <Target Target="#14">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="60" />
+      </Target>
+      <Target Target="#15">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="63" />
+      </Target>
+      <Target Target="#16">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="66" />
+      </Target>
+      <Target Target="#38">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="68" />
+      </Target>
+      <Target Target="#17">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="71" />
+      </Target>
+      <Target Target="#18">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="74" />
+      </Target>
+      <Target Target="#19">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="77" />
+      </Target>
+      <Target Target="#20">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="80" />
+      </Target>
+      <Target Target="#21">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="83" />
+      </Target>
+      <Target Target="#22">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="86" />
+      </Target>
+      <Target Target="#39">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="4" />
+      </Target>
+      <Target Target="#23">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="17" />
+      </Target>
+      <Target Target="#24">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="29" />
+      </Target>
+      <Target Target="#25">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="32" />
+      </Target>
+      <Target Target="#26">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="35" />
+      </Target>
+      <Target Target="#40">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="88" />
+      </Target>
+      <Target Target="#27">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="91" />
+      </Target>
+      <Target Target="#28">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="94" />
+      </Target>
+      <Target Target="#29">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="97" />
+      </Target>
+      <Target Target="#30">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="100" />
+      </Target>
+      <Target Target="#41">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="102" />
+      </Target>
+      <Target Target="#31">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="105" />
+      </Target>
+      <Target Target="#32">
+        <JoinPoint Advising="#45" Description="#46" Ordinal="108" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#33" Id="f78ffe8730fa428a">
+      <Target>
+        <JoinPoint Advising="#45" Description="#46" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#34" Id="f78ffe87cb3f356e">
+      <Target>
+        <JoinPoint Advising="#45" Description="#46" Ordinal="2" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#47=T:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.CacheAspects.CacheAspect">
+    <Instance Declaration="#3" Id="f78ffe879e05095e">
+      <Target>
+        <JoinPoint Advising="#47" Description="#48=Intercepted by OnInvoke" Ordinal="8" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#49=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.LogAspects.LogAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50=2" Description="#51=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#52=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnSuccess([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#53=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnExit([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#54=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnException([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#55=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.ExceptionAspects.ExceptionLogAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#56=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.PerformanceAspects.PerformanceCounterAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#57=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.PerformanceAspects.PerformanceCounterAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#58=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.ValidationAspects.FluentValidationAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#59=M:[PostSharp]PostSharp.Aspects.OnMethodBoundaryAspect::OnEntry([PostSharp]PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#60=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.CacheAspects.CacheRemoveAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#61=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#62=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+  <Annotation Target="#63=M:[web.GurselFramework.Core]web.GurselFramework.Core.Aspects.Postsharp.TransactionAspects.TransactionScopeAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#50" Description="#51" />
+</Symbols>
